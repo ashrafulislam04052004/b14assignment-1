@@ -272,3 +272,51 @@ header{
 .featured button:hover{
     background:#1d4ed8;
 }
+
+
+.why-attend{
+    padding:80px 0;
+    background:#f8fafc;
+}
+
+.why-attend h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:50px;
+    color:#1f2937;
+}
+
+.why-container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.why-card{
+    background:#fff;
+    padding:30px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+.why-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.why-card p{
+    font-size:17px;
+    color:#4b5563;
+    line-height:1.7;
+}
