@@ -218,11 +218,15 @@ header{
 .pricing-card ul{
     margin-left: 20px;
     margin-bottom: 30px;
+    
 }
 
 .pricing-card ul li{
     margin-bottom: 12px;
     color: #374151;
+}
+.featured ul li {
+    color: white;
 }
 
 .pricing-card ul li::marker{
