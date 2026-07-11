@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Navbar */
+
+nav{
+    width:100%;
+    background:#fff;
+    padding:20px 0;
+}
+
+.navbar{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo img{
+    width:130px;
+}
+
+.menu ul{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+
+.menu ul li a{
+    text-decoration:none;
+    color:#222;
+    font-size:18px;
+    font-weight:500;
+}
+
+.menu ul li a:hover{
+    color:#2563eb;
+}
+
+.btn button{
+    padding:12px 28px;
+    background:#2563eb;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.btn button:hover{
+    background:#1d4ed8;
+}
+
+/* Hero Section */
+
+header{
+    height:90vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+    url("./assets/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.header-content{
+    text-align:center;
+    color:white;
+    max-width:800px;
+    padding:20px;
+}
+
+.header-content h1{
+    font-size:65px;
+    font-weight:700;
+    margin-bottom:25px;
+    line-height:1.2;
+}
+
+.header-content h1 em{
+    font-style:italic;
+}
+
+.header-content p{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.header-content button{
+    padding:15px 35px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+
+
+}
+
+.header-content button:hover{
+    background:#1d4ed8;
+}
+
+
+.speakers{
+    max-width: 1120px;
+    margin: 0px auto;
+}
+
+.speakers h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.main-contain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speaker-card{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      height: 500px;
+}
+
+.speaker-card img{
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+    
+}
+
+.tag{
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+
+
+.pricing{
+    padding: 80px 0;
+}
+
+.pricing-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing-header h1{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.pricing-header p{
+    font-size: 18px;
+    color: gray;
+}
+
+.price-container{
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.pricing-card{
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.pricing-card h5{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.pricing-card h1{
+    font-size: 55px;
+    color: #1f2937;
+}
+
+.price-text{
+    color:white;
+    margin: 8px 0 20px;
+}
+
+.pricing-card hr{
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.pricing-card ul li{
+    margin-bottom: 12px;
+    color: #374151;
+}
+
+.pricing-card ul li::marker{
+    color:white;
+}
+
+.pricing-card button{
+    width:100%;
+    padding:14px;
+    border:2px solid #2563eb;
+    background:white;
+    color:#2563eb;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.pricing-card button:hover{
+    background:#2563eb;
+    color:white;
+}
+
+/* Middle Card */
+
+.featured{
+    background:#111827;
+}
+
+.featured h5,
+.featured h1,
+.featured p,
+.featured li{
+    color:white;
+}
+
+.featured hr{
+    border-top:1px solid #374151;
+}
+
+.featured button{
+    background:#2563eb;
+    color:white;
+    border:none;
+}
+
+.featured button:hover{
+    background:#1d4ed8;
+}
